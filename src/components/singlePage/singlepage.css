@@ -1,0 +1,103 @@
+.main {
+  margin-top: 50px; /* Adjust margin top for spacing */
+}
+
+.details {
+  padding-right: 50px; /* Add padding right for spacing */
+}
+
+.details .title {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.details .author {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.details .author p {
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+
+.details .author img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.details .author label {
+  color: grey;
+}
+
+.details .social {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.details .social .socBox {
+  margin-right: 20px;
+}
+
+.details img {
+  margin: 30px 0;
+}
+
+.desctop p {
+  margin: 20px 0;
+  line-height: 30px;
+}
+
+.descbot h1 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.quote {
+  padding-left: 50px;
+  border-left: 5px solid red;
+}
+
+.quote i {
+  font-size: 50px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.quote p {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .details {
+    padding-right: 0; /* Remove padding right on smaller screens */
+  }
+
+  .details img {
+    width: 100%; /* Set image width to 100% for responsiveness */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust image width */
+  .mainContent img {
+    width: 100%; /* Make the image responsive by setting its width to 100% of its container */
+    height: auto; /* Ensure the image maintains its aspect ratio */
+    margin-bottom: 20px; /* Add some spacing between the image and paragraphs */
+  }
+
+  /* Adjust paragraph width and font size */
+  .mainContent p {
+    width: 100%; /* Ensure paragraphs occupy full width */
+    font-size: 14px; /* Decrease font size for smaller screens */
+    line-height: 1.6; /* Increase line height for better readability */
+    margin-bottom: 15px; /* Add some spacing between paragraphs */
+  }
+}

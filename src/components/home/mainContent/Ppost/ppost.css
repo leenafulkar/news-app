@@ -1,0 +1,18 @@
+.popularPost .box {
+  margin: 15px 15px 15px 0;
+}
+
+.popularPost img {
+  width: 100%; /* Make the image width fill its container */
+  height: auto; /* Allow the image height to adjust proportionally */
+}
+
+.popularPost .text {
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .popularPost img {
+    width: 100%; /* Adjust image width to fill the container on smaller screens */
+  }
+}

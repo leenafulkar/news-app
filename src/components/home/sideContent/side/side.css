@@ -1,0 +1,18 @@
+.gallery .img {
+  width: 315px;
+  height: 200px;
+}
+
+.gallery img {
+  width: 315px;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery img,
+  .gallery .img {
+    width: 100%; /* Adjust image width to fill the container on smaller screens */
+    height: auto; /* Allow the image height to adjust proportionally */
+  }
+}

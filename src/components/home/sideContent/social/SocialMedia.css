@@ -1,0 +1,16 @@
+.social {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .socBox {
+    flex: 0 0 50%; /* Two items per row on smaller screens */
+    padding: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .socBox {
+      flex: 0 0 25%; /* Four items per row on larger screens */
+    }
+  }
+  
